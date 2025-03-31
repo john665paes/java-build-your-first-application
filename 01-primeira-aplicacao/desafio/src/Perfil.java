@@ -1,8 +1,6 @@
 public class Perfil {
-    String nome = "Johnatan";
-
-    public void main(String[] args) {
-        System.out.println("Olá " + this.nome);
+    public static void main(String[] args) {
+        System.out.println("Olá John");
         System.out.println("Tudo bem?");
     }
 }
