@@ -14,7 +14,9 @@ public class Main {
         double notaDoFilme = 8.1;
 
         double media = (notaDoFilme + 8.5 + 5.4) /3;
-        System.out.println("A nota media do filme " + nomeDoFilme + " e " + String.format("%.2f",media));
+
+        //Ultilizei aqui o format() para inserir variaveis no sout
+        System.out.println(String.format("A nota media do filme  %s foi de %.2f",nomeDoFilme,media));
 
         String sinopse = """
                 Um grupo de mercenarios tenta tirar o controle da navelha da terra
@@ -22,6 +24,10 @@ public class Main {
                 """;
 
         System.out.println(sinopse);
+
+        int classificacao = (int) media / 2;
+        System.out.println(classificacao);
+
 
 
 
