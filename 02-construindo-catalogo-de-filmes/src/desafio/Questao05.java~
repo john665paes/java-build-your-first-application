@@ -9,10 +9,8 @@ import static java.lang.System.out;
 public class Questao05 {
     public static void main(String[] args){
 
-        double valorEmDorlares = 10.50;
-        double taxaDeConversao = 4.94;
-
-        double real = valorEmDorlares * taxaDeConversao;
-                out.printf("R$%.2f%n", real);
+        double valorEmDorlares = 10;
+        double realB = valorEmDorlares * 4.94;
+        out.printf("R$%.2f%n", realB);
     }
 }

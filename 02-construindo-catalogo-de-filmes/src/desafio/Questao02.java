@@ -7,7 +7,7 @@ public class Questao02 {
     public static void main(String[] args){
         double numReal = 57.5;
         int inteiro = (int) numReal;
-        System.out.println(inteiro);
+        System.out.println("Casting de double para int: " + inteiro);
 
     }
 }

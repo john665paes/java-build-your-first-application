@@ -9,8 +9,9 @@ package desafio;
 public class Questao06 {
     public static void main(String [] args){
         double precoOriginal = 29.90;
-        double percentualDeDesconto = 10;
-        double total = (precoOriginal*100)/10;
-        System.out.println("Preço com desconto: %.2f%n", total);
+        double percentualDeDesconto = (precoOriginal*10)/100;
+        double total =precoOriginal - percentualDeDesconto; ;
+        System.out.printf("Preço original: %.2f%n", precoOriginal);
+        System.out.printf("Preço com desconto: %.2f%n", total);
 
     }}

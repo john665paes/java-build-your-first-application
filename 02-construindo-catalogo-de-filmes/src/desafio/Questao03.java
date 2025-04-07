@@ -4,8 +4,9 @@ package desafio;
 public class Questao03 {
     public static void main(String[] args) {
         char letra = 'J';
-        String palavra = "Java";
-        System.out.println(letra + palavra);
+        String palavra = "ava";
+        String mensagem = "A letra " + letra + " e a palavra " + palavra + " formam Java";
+        System.out.println(mensagem);
     }
 }
 

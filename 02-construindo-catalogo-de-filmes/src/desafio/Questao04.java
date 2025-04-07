@@ -9,7 +9,11 @@ public class Questao04 {
     public static void main(String[] args) {
         double precoProduto = 5.5;
         int quantidade = 10;
+
         double valorTotal =(double) precoProduto * quantidade;
+
+
+
         System.out.printf("O valor total das compras é de R$%.2f", valorTotal);
 
     }
