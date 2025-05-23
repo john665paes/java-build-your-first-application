@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        int anoDeLancamento = 1999;
+
+        boolean incluidoNoPlano = false;
+        double notaDoFilme = 8.1;
+        String tipoPlano = "plus";
+
+//usando condiçoes if e else
+        if (anoDeLancamento < 2000) {
+            System.out.print("Esse filme é retrô");
+        } else {
+            System.out.printf("Esse filme é recente, de %s", anoDeLancamento);
+        }
+//
+        if (incluidoNoPlano || tipoPlano.equals("plus")){
+            System.out.print("Pode asistir de graça");
+        }
+} }
